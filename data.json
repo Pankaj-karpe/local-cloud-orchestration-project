@@ -1,0 +1,31 @@
+{
+  "IPL_Teams": [
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {"S": "MI"},
+          "TeamName": {"S": "Mumbai Indians"},
+          "Captain": {"S": "Rohit Sharma"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {"S": "CSK"},
+          "TeamName": {"S": "Chennai Super Kings"},
+          "Captain": {"S": "MS Dhoni"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "TeamId": {"S": "RCB"},
+          "TeamName": {"S": "Royal Challengers banglore"},
+          "Captain": {"S": "Virat Kholi"}
+        }
+      }
+    }
+  ]
+}
